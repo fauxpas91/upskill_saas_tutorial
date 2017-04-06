@@ -21,18 +21,30 @@ h1, h2, h3{
   font-family: 'Open Sans', sans-serif;
 }
 
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  
+}
+a{
+  color: white;
+}
+
 //gradient provided by uiGradients.com
-body, .navbar{
-  background: #ffd89b;  /* fallback for old browsers */
-  background: -webkit-gradient(linear, 100% 0, 0 0, from(#19547b), to(#ffd89b));
-  background: -webkit-linear-gradient(to right, #19547b, #ffd89b);
-  background: -moz-linear-gradient(to right, #19547b, #ffd89b);
-  background: -o-linear-gradient(to right, #19547b, #ffd89b);
-  background: linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+body{
+  background-repeat: no-repeat;
+  background: #F3904F;  /* fallback for old browsers */
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#3B4371), to(#F3904F));
+  background: -webkit-linear-gradient(to bottom, #3B4371, #F3904F);
+  background: -moz-linear-gradient(to bottom, #3B4371, #F3904F);
+  background: -o-linear-gradient(to bottom, #3B4371, #F3904F);
+  background: linear-gradient(to bottom, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }  
 
 .navbar{
+  background-color: #434770;
   border: none;
 }
