@@ -56,7 +56,8 @@ body{
 .navbar-default .navbar-nav > li > a { //Navbar links
   color: black;
   &:hover{
-    color: cornflowerblue;
+    color: black;
+    text-shadow: 2px 2px deepskyblue;
   }
 }
 
