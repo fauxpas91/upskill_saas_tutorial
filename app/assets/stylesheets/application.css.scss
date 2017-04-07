@@ -63,5 +63,26 @@ body{
 
 .navbar{
   border: none;
-  
+}
+
+.navbar-default .navbar-toggle{
+  background-color: #e6ee00;
+  border: 1px solid black;
+  &:hover, &:focus{
+    background-color: #efff92;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: black;
+}
+
+.navbar-default .navbar-collapse{
+  border-color: black;
+}
+
+
+.navbar-brand{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
 }
