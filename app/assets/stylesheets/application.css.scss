@@ -27,13 +27,9 @@ html{
 
 body{
   height: 100%;
-  
-}
-a{
-  color: white;
 }
 
-//gradient provided by uiGradients.com
+
 .navbar, .home-callout{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9ff8d+0,e6ee00+100 */
   background: #f9ff8d; /* Old browsers */
@@ -47,6 +43,22 @@ a{
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
+}
+
+.navbar-default .navbar-brand{
+  color: black;
+}
+
+.navbar-default .navbar-brand:hover{
+  color: cornflowerblue;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: cornflowerblue;
 }
 
 .navbar{
